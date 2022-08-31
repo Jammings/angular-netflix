@@ -1,0 +1,6 @@
+<h2>{{topfives.title}}</h2>
+<ul class ="five-poster">
+    <li *ngFor="let topfive of topfives.image"> 
+        <img src="{{topfive.src}}" alt="{{topfive.alt}}"/>
+    </li>
+</ul>

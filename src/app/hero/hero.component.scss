@@ -1,0 +1,26 @@
+.five-poster{
+    display: flex;
+    flex-direction:row;
+    background-color: transparent;
+    letter-spacing: normal;
+    color: white;
+}
+img{
+    padding: 0 10px 0 0;
+    width: 300px;
+    border-radius: 30px;
+    margin: 15px;
+    cursor:pointer
+
+}
+li{
+    list-style:none;
+}
+
+li:hover{
+    
+    box-shadow: rgb(82, 219, 185) 0px 0px 20px;
+    transform: scale(1.02);
+    border-radius: 30px;
+}
+
