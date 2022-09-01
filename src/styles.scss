@@ -3,3 +3,11 @@ body {
     background-color: black;
     color: azure;
 }
+
+section{
+    width: 100%;
+    @media screen and (min-width: 2600px) {
+      width: 20%;
+      position: relative;
+    }
+}

@@ -143,22 +143,27 @@ public topfives: TopFiveInterface = {
   title: 'TOP 5: Las mejores películas',
   image: [
     {
+      number: 1,
       src:"./assets/images/Drama/clublucha.webp",
       alt: "Club de la Lucha"
     },
     {
+      number: 2,
       src:"./assets/images/Drama/scarface.webp",
       alt: "Scarface"
     },
     {
+      number: 3,
       src:"./assets/images/Sci-fi/watchmen.webp",
       alt: "Watchmen"
     },
     {
+      number: 4,
       src:"./assets/images/Comedia/casi300.webp",
       alt: "Casi 300"
     },
     {
+      number: 5,
       src:"./assets/images/Anime/evangelion.webp",
       alt: "Evangelion"
     }

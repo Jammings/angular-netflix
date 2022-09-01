@@ -1,5 +1,5 @@
+import { TopFiveInterface } from './../models/topfive.interface';
 import { Component, Input, OnInit } from '@angular/core';
-import { TopFiveInterface } from './../models/films.interface';
 
 @Component({
   selector: 'app-hero',

@@ -1,9 +1,10 @@
-export interface ImageInterface{
+export interface TopImageInterface{
+    number: number;
     src: string;
     alt?: string;
 }
 
 export interface TopFiveInterface{
     title: string;
-    image: ImageInterface[];
+    image: TopImageInterface[];
 }

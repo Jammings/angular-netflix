@@ -1,6 +1,8 @@
+<section class="section">
 <h2>{{films.title}}</h2>
-<ul class ="poster">
-    <li *ngFor="let film of films.image">
+<div class="poster">
+    <div *ngFor="let film of films.image">
         <img src="{{film.src}}" alt="{{film.alt}}"/>
-    </li>
-</ul>
+    </div>
+</div>
+</section>

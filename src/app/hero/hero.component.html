@@ -1,6 +1,11 @@
+<section class="section">
 <h2>{{topfives.title}}</h2>
-<ul class ="five-poster">
-    <li *ngFor="let topfive of topfives.image"> 
+<div class ="five-poster">
+    <div *ngFor="let topfive of topfives.image" class="posters-top"> 
         <img src="{{topfive.src}}" alt="{{topfive.alt}}"/>
-    </li>
-</ul>
+        <div class="numberfive">
+            <p>{{topfive.number}}</p>
+        </div>
+        </div>
+</div>
+</section>

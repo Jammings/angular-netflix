@@ -1,26 +1,56 @@
 .five-poster{
     display: flex;
-    flex-direction:row;
-    background-color: transparent;
-    letter-spacing: normal;
+    justify-content: space-between;
     color: white;
+    position: relative;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 }
-img{
-    padding: 0 10px 0 0;
-    width: 300px;
-    border-radius: 30px;
-    margin: 15px;
-    cursor:pointer
 
+.posters-top
+img{
+    padding: auto;
+    width: 230px;
+    border-radius: 20px;
+    margin: 20px 20px 20px 70px;
+    cursor:pointer;
+    position: relative;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 }
+.numberfive{
+
+    margin-right: 150px;
+    p{
+    
+        font-size: 250px;
+        margin-top: -240px;
+        margin-right: 40px;
+    /*     position: absolute; */
+        margin-bottom: 10px;
+        -webkit-text-stroke: 3px rgb(218, 211, 211);
+        color: rgb(0, 0, 0); 
+        @media screen and (min-width: 1200px) {
+            max-width: 134px;
+          }
+        
+    }  
+      
+}
+
+
 li{
     list-style:none;
 }
 
-li:hover{
+img:hover{
     
     box-shadow: rgb(82, 219, 185) 0px 0px 20px;
     transform: scale(1.02);
     border-radius: 30px;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 }
-

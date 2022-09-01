@@ -4,23 +4,32 @@
     background-color: transparent;
     letter-spacing: normal;
     color: white;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 }
 img{
     padding: 10 10 0 0;
     width: 300px;
     border-radius: 30px;
     margin: 20px;
-    cursor:pointer
+    cursor:pointer;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 
 }
 
 li{
     list-style:none;
 }  
-li:hover{
+img:hover{
     
-    box-shadow: rgb(114, 58, 13) 0px 0px 20px;
+    box-shadow: rgb(186, 196, 58) 0px 0px 20px;
     transform: scale(1.02);
     border-radius: 30px;
+    @media screen and (min-width: 2400px) {
+        max-width: 134px;
+      }
 
 }
